@@ -1,0 +1,31 @@
+{
+  "name": "kwest-request",
+  "version": "0.0.1",
+  "description": "kwest API on top of request",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "request",
+    "kwest"
+  ],
+  "author": "Jan Potoms",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "caseless": "^0.6.0",
+    "kwest": "^0.2.0",
+    "kwest-base": "^0.5.0",
+    "request": "^2.44.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "express": "^4.9.5",
+    "mocha": "^1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Janpot/kwest-request.git"
+  }
+}
